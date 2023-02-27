@@ -1,0 +1,37 @@
+body {
+    background-color: #e8e6e6;
+    opacity: 0.8;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    padding: 0px;
+    margin: 50px auto 50px auto;
+    border: 2px solid rgb(128, 197, 119);
+}
+
+
+.target {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: black 1px solid;
+    background-color: green;
+}
+.open:active {
+    cursor: url('../image/free-icon-dead-blow-hammer-1105682\ \(2\).png'), auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
