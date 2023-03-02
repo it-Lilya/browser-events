@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/8n20vbnt2u3d3aae?svg=true)](https://ci.appveyor.com/project/it-Lilya/browser-dom)
+![Build status](https://ci.appveyor.com/api/projects/status/iqcx8ucr7tc76l4r?svg=true)](https://ci.appveyor.com/project/it-Lilya/browser-events)
