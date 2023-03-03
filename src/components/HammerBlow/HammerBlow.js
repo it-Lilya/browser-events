@@ -11,7 +11,7 @@ export class HammerBlow {
 
     setInterval(() => {
       document.addEventListener('input', this.onPass());
-    }, 1000);
+    }, 5000);
   }
 
   // eslint-disable-next-line class-methods-use-this
@@ -20,6 +20,8 @@ export class HammerBlow {
     if (target.parentElement.classList.contains('open') === true) {
       this.check += 1;
       this.pass = -1;
+      target.parentElement.classList.remove('open');
+      target.parentElement.innerHTML = '';
     }
     const check = document.querySelector('.check');
     check.innerHTML = `Счет: ${this.check}`;

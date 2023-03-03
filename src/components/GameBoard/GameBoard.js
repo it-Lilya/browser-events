@@ -35,6 +35,6 @@ export class GameBoard {
       currentCell.classList.add('open');
       currentCell.innerHTML = `<img src=${image}>`;
       this.previousIndex = this.currentIndex;
-    }, 1000);
+    }, 5000);
   }
 }
